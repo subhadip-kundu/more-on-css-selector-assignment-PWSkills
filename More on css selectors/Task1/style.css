@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+ul li a {
+    color: red;
+}
+
+nav>h2 {
+    color: #ffe4ea;
+    background-color: steelblue;
+    text-align: center;
+    padding: 20px;
+}
+
+nav p:first-of-type {
+    color: red;
+}
+
+
+[href="#"]{
+    color: red;
+    text-decoration: none;
+}
+
+
+[class="active"]{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+[target="_self"]{
+    background-color:darkorchid;
+}
+
+
+nav p:last-of-type::after {
+    content: "...";
+}
+
+nav ul li::marker {
+    color: blue;
+}
+
+
+nav p:nth-of-type(2)::first-letter {
+    color: red;
+    font-size: 30px;
+}
+

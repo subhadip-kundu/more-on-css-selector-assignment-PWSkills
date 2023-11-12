@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav>ul>li {
+    display: inline;
+}
+
+nav ul li+li {
+    margin-left: 3rem;
+}
